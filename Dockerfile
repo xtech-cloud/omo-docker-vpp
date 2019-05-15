@@ -21,5 +21,6 @@ EXPOSE 80
 
 ADD vpp /usr/local/bin/
 RUN chmod +x /usr/local/bin/vpp
+ADD vpp.cfg /etc/vpp/
 
 CMD ["vpp"]
