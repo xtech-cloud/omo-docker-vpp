@@ -27,6 +27,6 @@ ADD vpp /usr/local/bin/
 RUN chmod +x /usr/local/bin/vpp
 ADD vpp.cfg /etc/vpp/
 ADD tls.crt /etc/vpp/
-ADD tls.vpp /etc/vpp/
+ADD tls.key /etc/vpp/
 
 CMD ["vpp"]
